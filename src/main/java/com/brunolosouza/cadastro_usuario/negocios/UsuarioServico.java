@@ -5,11 +5,11 @@ import com.brunolosouza.cadastro_usuario.infraestrutura.repositorio.UsuarioRepos
 import org.springframework.stereotype.Service;
 
 @Service
-public class UsuarioServiço {
+public class UsuarioServico {
 
     private final UsuarioRepositorio repositorio ;
 
-    public UsuarioServiço(UsuarioRepositorio repositorio) {
+    public UsuarioServico(UsuarioRepositorio repositorio) {
         this.repositorio = repositorio;
     }
 
